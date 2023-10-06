@@ -1,0 +1,26 @@
+body{
+ margin: 2% 50%;
+
+}
+
+
+
+#squares{
+    display: grid;
+    grid-template-columns: repeat(4, 180px);
+       gap: 50px;
+     justify-content: center;
+    
+   
+   
+}
+.container{
+    background-color: rgb(32, 32, 32);
+    width: 180px ;
+    height:180px  ;
+    
+}
+
+.active{
+    background-color: rgb(155, 152, 148);
+}
